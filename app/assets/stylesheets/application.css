@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+a {
+  color: gray;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  opacity: 1.0;
+}
+
+.list-unstyled a, .list-unstyled h2 {
+  color: rgb(9, 108, 141);
+  opacity: 0.7;
+}
+.list-unstyled a:hover {
+  color: rgb(9, 108, 141);
+  opacity: 1.0;
+  text-decoration: underline;
+}
